@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Irkutsk Space History</title>
+  <link rel="stylesheet" href="with_my_fonts.css">
+  <script text=javascript src="script.js"></script>
+</head>
+<body onload="showSlides();">
+  <div class="menu">
+    <div class="men">
+      <ul>
+        <li id="logo">
+          <a href="#">
+          IRKUTSK<br>
+          &lt;SPACE&gt <br>
+          HISTORY
+          </a>
+        </li>
+        <li>
+          <a href="#" id="main" class="menu_current">
+            <h2>Главная</h2>
+          </a>
+        </li>
+        <li>
+          <a href="cosmonauts.html" id="cosmonauts" class="menu__link">
+            <h2>Космонавты</h2>
+          </a>
+          <ul>
+            <li>
+            <a href="cosmonauts.html#volynov" class="men2"><h2>Борис Валентинович Волынов</h2> </a>
+            </li>
+            <li>
+            <a href="cosmonauts.html#poleshuk" class="men2"><h2> Александр Федорович Полещук</h2></a>
+            </li>
+            <li>
+            <a href="cosmonauts.html#kondratiev" class="men2"><h2>Дмитрий Юрьевич Кондратьев</h2></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="constructors.html" id="constructors" class="menu__link">
+            <h2>Конструкторы</h2>
+          </a>
+          <ul>
+            <li>
+            <a href="constructors.html#yangel" class="men2"><h2>Михаил Кузьмич Янгель</h2></a>
+            </li>
+            <li>
+            <a href="constructors.html#kremnev" class="men2"><h2>Роальд Саввович Кремнев</h2></a>
+            </li>
+            <li>
+              <a href="constructors.html#sharakshane" class="men2"><h2>Або Сергеевич Шаракшанэ</h2></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="scientists.html" id="scientists" class="menu__link">
+            <h2>Ученые</h2>
+          </a>
+          <ul>
+            <li>
+            <a href="scientists.html#yazev" class="men2"><h2>Сергей Арктурович Язев</h2></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href=links.html id="links" class="menu__link">
+            <h2>Полезные ссылки</h2>
+          </a>
+        </li>
+      </ul>
+      <hr>
+    </div>
+  </div>
+  <div class="vol">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">
+          1 / 3
+        </div>
+        <img src="pic/space.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="pic/space1.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="pic/space2.jpg" style="width:100%">
+      </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
